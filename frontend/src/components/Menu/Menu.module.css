@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: solid 2px #282c34;
+  border-bottom: solid 2px #282c34;
+}
+
+.container > p {
+  border: #282c34 solid 1px;
+  border-radius: 5px;
+  background-color: #020b4a;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+  transition: 0.2s;
+}
+
+.container > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+.container > p:hover {
+  background-color: #a00101;
+  transition: 0.2s;
+}
+
+/*# sourceMappingURL=Menu.module.css.map */
